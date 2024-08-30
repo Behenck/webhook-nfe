@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/server.ts": {
+      "runtime": "nodejs21.x"
+    }
+  }
+}
