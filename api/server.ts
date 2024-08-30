@@ -1,7 +1,6 @@
 import Fastify from 'fastify';
 import fs from 'fs';
 import path from 'path';
-import { VercelRequest, VercelResponse } from '@vercel/node';
 
 const fastify = Fastify({ logger: true });
 
