@@ -1,6 +1,7 @@
 {
   "name": "webhook-nfe",
   "version": "1.0.0",
+  "main": "api/server.ts",
   "scripts": {
     "build": "tsc",
     "start": "tsx api/server.ts"
@@ -8,7 +9,7 @@
   "dependencies": {
     "@types/node": "^22.5.1",
     "fastify": "^4.28.1",
-    "node": "^18.0.0"
+    "node": "^18.20.4"
   },
   "devDependencies": {
     "tsx": "^4.19.0",
